@@ -35,6 +35,12 @@ So instead of struggeling with the installation of a gem, just write
 
 Then add the customization.
 
+## Testing
+
+```bash
+docker-compose run --rm bashcov test.sh
+```
+
 ## References
 
  - [Overview over other rubygem docker images](https://github.com/thinkbot/docker-rubygem)
